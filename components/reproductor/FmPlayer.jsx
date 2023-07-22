@@ -43,7 +43,7 @@ export const FmPlayer = () => {
 
 
     useEffect(() => {
-        let audio = new Audio('https://server.regionlima.net:8030/live')
+        let audio = new Audio('https://server.regionlima.net:8100/antena9')
         audio.crossOrigin = true
         setFmAudio(audio)
     }, [])
